@@ -7,8 +7,8 @@ Copyright   : Copyright w2solution Co.,Ltd. 2009 All Rights Reserved.
 --%>
 <%-- ▽ユーザーコントロール宣言領域▽ --%>
 <%-- △ユーザーコントロール宣言領域△ --%>
-<%@ Page Title="タイトルを記載 || FURFUR（ファーファー）公式サイト" Language="C#" Inherits="ContentsPage" MasterPageFile="~/SmartPhone/Form/Common/DefaultPage.master" %>
-<%@ Register TagPrefix="uc" TagName="text" Src="~/Page/issue/furfur_template/parts/content.ascx" %>
+<%@ Page Title="Flower Art Collection 春のフラワーモチーフコレクション || FURFUR（ファーファー）公式サイト" Language="C#" Inherits="ContentsPage" MasterPageFile="~/SmartPhone/Form/Common/DefaultPage.master" %>
+<%@ Register TagPrefix="uc" TagName="text" Src="~/Page/issue/issue_250319/parts/content.ascx" %>
 <%@ Register TagPrefix="uc" TagName="archive" Src="~/Page/issue/parts/archive.ascx" %>
 
 <%--

@@ -139,6 +139,9 @@ reset CSS
       font-family: "pragmatica", sans-serif;
       font-weight: 400;
       font-style: normal;
+      line-height: calc(26.4s / 12);
+      font-size: rem(12);
+      letter-spacing: calc(50 / 1000 * 1em);
     }
   }
 
@@ -212,13 +215,14 @@ reset CSS
   =========================================== */
   .description {
     padding-top: rem(100);
-    padding-bottom: rem(100);
+    padding-bottom: rem(93.8);
     @include mq("sp") {
       padding-top: spSize(140);
       padding-bottom: spSize(140);
     }
   }
   .description__text {
+    margin-top: rem(-6.3);
     text-align: center;
   }
 
@@ -226,8 +230,8 @@ reset CSS
   product-block-01
   =========================================== */
   .product-block-01 {
-    padding-top: rem(calc(100));
-    padding-bottom: rem(100);
+    padding-top: rem(calc(99));
+    padding-bottom: rem(98);
     background: #fff7f7;
     @include mq("sp") {
       padding-top: spSize(140);
@@ -323,7 +327,7 @@ reset CSS
     }
   }
   .product-block-01__body {
-    margin-top: rem(40);
+    margin-top: rem(33);
     @include mq("sp") {
       margin-top: spSize(80);
     }
@@ -332,7 +336,7 @@ reset CSS
     text-align: center;
   }
   .product-block-01__price {
-    margin-top: rem(40);
+    margin-top: rem(25);
     display: flex;
     gap: rem(10);
     justify-content: center;
@@ -378,7 +382,7 @@ reset CSS
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: rem(60);
+    gap: rem(45);
     @include mq("sp") {
       flex-direction: column;
       gap: spSize(80);
@@ -387,7 +391,7 @@ reset CSS
   .product-block-02__image-area {
     position: relative;
     flex-shrink: 0;
-    padding-top: rem(40);
+    padding-top: rem(39);
     padding-left: rem(124);
     padding-bottom: rem(86);
     @include mq("sp") {
@@ -421,8 +425,8 @@ reset CSS
   }
   .product-block-02__top-text {
     position: absolute;
-    top: 0;
-    left: rem(60);
+    top: rem(-1);
+    left: rem(55);
     @include mq("sp") {
       left: spSize(20);
     }
@@ -436,15 +440,15 @@ reset CSS
   }
   .product-block-02__bottom-text {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: rem(6);
+    right: rem(2);
     width: 100%;
     text-align: right;
     @include mq("sp") {
       right: spSize(20);
     }
     img {
-      max-width: rem(400);
+      max-width: rem(360);
       width: 100%;
       @include mq("sp") {
         max-width: spSize(560);
@@ -454,8 +458,8 @@ reset CSS
   }
   .product-block-02__left-flower {
     position: absolute;
-    bottom: rem(45);
-    left: 0;
+    bottom: rem(46);
+    left: rem(2);
     pointer-events: none;
 
     @include mq("sp") {
@@ -487,12 +491,13 @@ reset CSS
     position: relative;
     flex-grow: 1;
     width: 100%;
+    margin-bottom: rem(8);
   }
   .product-block-02__text {
     text-align: center;
   }
   .product-block-02__price__wrapper {
-    margin-top: rem(40);
+    margin-top: rem(27);
     @include mq("sp") {
       margin-top: spSize(60);
     }
@@ -515,8 +520,8 @@ reset CSS
 
   .product-block-02__center-flower {
     position: absolute;
-    bottom: rem(-100);
-    left: 0;
+    bottom: rem(-108);
+    left: rem(4);
     pointer-events: none;
 
     @include mq("sp") {
@@ -525,7 +530,7 @@ reset CSS
       bottom: spSize(-90);
     }
     img {
-      max-width: rem(110);
+      max-width: rem(130);
       width: 100%;
       @include mq("sp") {
         max-width: spSize(160);
@@ -534,12 +539,12 @@ reset CSS
   }
   .product-block-02__right-flower {
     position: absolute;
-    top: rem(-100);
-    right: 0;
+    top: rem(-92);
+    right: rem(-5);
     pointer-events: none;
 
     img {
-      max-width: rem(118);
+      max-width: rem(120);
       width: 100%;
     }
   }
@@ -548,8 +553,8 @@ reset CSS
   product-block-03
   =========================================== */
   .product-block-03 {
-    padding-top: rem(100);
-    padding-bottom: rem(100);
+    padding-top: rem(98);
+    padding-bottom: rem(96);
     background: #fdf7ee;
     @include mq("sp") {
       padding-top: spSize(140);
@@ -581,8 +586,8 @@ reset CSS
   .product-block-03__image-area1 {
   }
   .product-block-03__top-text {
-    margin-top: rem(100);
-    margin-left: rem(27);
+    margin-top: rem(107);
+    margin-left: rem(29);
     @include mq("sp") {
       margin-top: 0;
       margin-left: 0;
@@ -598,7 +603,8 @@ reset CSS
     }
   }
   .product-block-03__image1 {
-    padding-left: rem(88);
+    margin-top: rem(15);
+    padding-left: rem(89);
 
     @include mq("sp") {
       padding-left: 0;
@@ -616,6 +622,7 @@ reset CSS
   .product-block-03__image-area2 {
   }
   .product-block-03__image2 {
+    // margin-top: rem(10);
     padding-right: 79px;
 
     @include mq("sp") {
@@ -641,6 +648,8 @@ reset CSS
   }
   .product-block-03__bottom-text {
     text-align: right;
+    margin-top: rem(26);
+    margin-right: rem(15);
     @include mq("sp") {
       text-align: left;
       margin-left: spSize(40);
@@ -656,8 +665,8 @@ reset CSS
   }
   .product-block-03__flower1 {
     position: absolute;
-    bottom: rem(170);
-    left: 0;
+    bottom: rem(180);
+    left: rem(1);
     pointer-events: none;
 
     @include mq("sp") {
@@ -676,7 +685,7 @@ reset CSS
   .product-block-03__flower2 {
     position: absolute;
     top: rem(-40);
-    right: 0;
+    right: rem(10);
     pointer-events: none;
 
     @include mq("sp") {
@@ -685,7 +694,7 @@ reset CSS
       right: auto;
     }
     img {
-      max-width: rem(117);
+      max-width: rem(122);
       width: 100%;
       @include mq("sp") {
         max-width: spSize(186);
@@ -694,8 +703,8 @@ reset CSS
   }
   .product-block-03__flower3 {
     position: absolute;
-    bottom: rem(183);
-    right: rem(171);
+    bottom: rem(192);
+    right: rem(185);
     pointer-events: none;
 
     @include mq("sp") {
@@ -713,8 +722,8 @@ reset CSS
   }
   .product-block-03__flower4 {
     position: absolute;
-    bottom: rem(243);
-    right: rem(57);
+    bottom: rem(235);
+    right: rem(60);
     pointer-events: none;
 
     @include mq("sp") {
@@ -722,7 +731,7 @@ reset CSS
       right: spSize(8);
     }
     img {
-      max-width: rem(120);
+      max-width: rem(140);
       width: 100%;
       @include mq("sp") {
         max-width: spSize(180);
@@ -730,7 +739,7 @@ reset CSS
     }
   }
   .product-block-03__body {
-    margin-top: rem(60);
+    margin-top: rem(55);
     @include mq("sp") {
       margin-top: spSize(80);
     }
@@ -739,7 +748,7 @@ reset CSS
     text-align: center;
   }
   .product-block-03__price-wrapper {
-    margin-top: rem(40);
+    margin-top: rem(25);
     @include mq("sp") {
       margin-top: spSize(60);
     }
@@ -764,7 +773,7 @@ reset CSS
   bottom-wrapper
   =========================================== */
   .bottom-wrapper {
-    padding-top: rem(100);
+    padding-top: rem(90);
     padding-bottom: rem(140);
     @include mq("sp") {
       padding-top: spSize(140);
@@ -785,7 +794,7 @@ reset CSS
     text-align: center;
   }
   .bottom-wrapper__button {
-    margin-top: rem(40);
+    margin-top: rem(36);
 
     background: #89b4c0;
     color: #fff;

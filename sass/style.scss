@@ -172,25 +172,35 @@ reset CSS
   .js-fadeIn {
     opacity: 0;
     visibility: hidden;
-    transition: opacity 1s, visibility 1s;
+    transition: opacity 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+      visibility 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   }
   .js-fadeIn.visible {
     opacity: 1;
     visibility: visible;
   }
-  .js-fadeInMv {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 1.5s, visibility 1.5s;
-  }
-  .js-fadeInMv.visible {
-    opacity: 1;
-    visibility: visible;
-  }
+  // .js-fadeInMv {
+  //   opacity: 0;
+  //   visibility: hidden;
+  //   transition: opacity 1.5s, visibility 1.5s;
+  // }
+  // .js-fadeInMv.visible {
+  //   opacity: 1;
+  //   visibility: visible;
+  // }
   /* ===========================================
   First View
   =========================================== */
   .fv {
+  }
+  .fv__link {
+    transition: opacity 0.3s;
+    &:hover {
+      opacity: 0.6;
+      @include mq("sp") {
+        opacity: 1;
+      }
+    }
   }
   .fv__picture {
     img {
@@ -245,12 +255,23 @@ reset CSS
       }
     }
   }
+  .product-block-01__image-link {
+    transition: opacity 0.3s;
+    &:hover {
+      opacity: 0.6;
+      @include mq("sp") {
+        opacity: 1;
+      }
+    }
+  }
   .product-block-01__deco-frame {
     position: absolute;
     z-index: 1;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+    pointer-events: none;
+
     @include mq("sp") {
       width: 100%;
     }
@@ -268,6 +289,7 @@ reset CSS
     bottom: 0;
     left: 50%;
     transform: translateX(calc(-1 * ((rem(450) / 2) + rem(110))));
+    pointer-events: none;
     @include mq("sp") {
       left: 0;
       transform: translateX(0);
@@ -286,6 +308,8 @@ reset CSS
     top: 0;
     right: 50%;
     transform: translateX(calc((rem(450) / 2) + rem(110)));
+    pointer-events: none;
+
     @include mq("sp") {
       right: 0;
       transform: translateX(0);
@@ -309,11 +333,24 @@ reset CSS
   }
   .product-block-01__price {
     margin-top: rem(40);
-    text-align: center;
+    display: flex;
+    gap: rem(10);
+    justify-content: center;
+    align-content: center;
     @include mq("sp") {
       margin-top: spSize(60);
     }
   }
+  .product-block-01__price-link {
+    transition: opacity 0.3s;
+    &:hover {
+      opacity: 0.6;
+      @include mq("sp") {
+        opacity: 1;
+      }
+    }
+  }
+
   /* ===========================================
   product-block-02
   =========================================== */
@@ -373,6 +410,15 @@ reset CSS
       }
     }
   }
+  .product-block-02__image-link {
+    transition: opacity 0.3s;
+    &:hover {
+      opacity: 0.6;
+      @include mq("sp") {
+        opacity: 1;
+      }
+    }
+  }
   .product-block-02__top-text {
     position: absolute;
     top: 0;
@@ -410,6 +456,8 @@ reset CSS
     position: absolute;
     bottom: rem(45);
     left: 0;
+    pointer-events: none;
+
     @include mq("sp") {
       bottom: spSize(-20);
     }
@@ -423,6 +471,8 @@ reset CSS
   }
   // SPのみ
   .product-block-02__top-flower {
+    pointer-events: none;
+
     @include mq("sp") {
       position: absolute;
       top: spSize(-60);
@@ -441,17 +491,34 @@ reset CSS
   .product-block-02__text {
     text-align: center;
   }
-  .product-block-02__price {
-    text-align: center;
+  .product-block-02__price__wrapper {
     margin-top: rem(40);
     @include mq("sp") {
       margin-top: spSize(60);
     }
   }
+  .product-block-02__price {
+    display: flex;
+    gap: rem(10);
+    justify-content: center;
+    align-items: center;
+  }
+  .product-block-02__price-link {
+    transition: opacity 0.3s;
+    &:hover {
+      opacity: 0.6;
+      @include mq("sp") {
+        opacity: 1;
+      }
+    }
+  }
+
   .product-block-02__center-flower {
     position: absolute;
     bottom: rem(-100);
     left: 0;
+    pointer-events: none;
+
     @include mq("sp") {
       right: 0;
       left: auto;
@@ -469,6 +536,8 @@ reset CSS
     position: absolute;
     top: rem(-100);
     right: 0;
+    pointer-events: none;
+
     img {
       max-width: rem(118);
       width: 100%;
@@ -530,6 +599,7 @@ reset CSS
   }
   .product-block-03__image1 {
     padding-left: rem(88);
+
     @include mq("sp") {
       padding-left: 0;
       margin-top: spSize(30);
@@ -542,10 +612,12 @@ reset CSS
       }
     }
   }
+
   .product-block-03__image-area2 {
   }
   .product-block-03__image2 {
     padding-right: 79px;
+
     @include mq("sp") {
       padding-right: spSize(18);
       text-align: right;
@@ -555,6 +627,15 @@ reset CSS
       width: 100%;
       @include mq("sp") {
         max-width: spSize(480);
+      }
+    }
+  }
+  .product-block-03__image-link {
+    transition: opacity 0.3s;
+    &:hover {
+      opacity: 0.6;
+      @include mq("sp") {
+        opacity: 1;
       }
     }
   }
@@ -577,6 +658,8 @@ reset CSS
     position: absolute;
     bottom: rem(170);
     left: 0;
+    pointer-events: none;
+
     @include mq("sp") {
       top: spSize(788);
       left: spSize(20);
@@ -594,6 +677,8 @@ reset CSS
     position: absolute;
     top: rem(-40);
     right: 0;
+    pointer-events: none;
+
     @include mq("sp") {
       top: spSize(-60);
       left: spSize(180);
@@ -611,9 +696,12 @@ reset CSS
     position: absolute;
     bottom: rem(183);
     right: rem(171);
+    pointer-events: none;
+
     @include mq("sp") {
       bottom: spSize(-92);
       left: spSize(25);
+      right: auto;
     }
     img {
       max-width: rem(82);
@@ -627,6 +715,8 @@ reset CSS
     position: absolute;
     bottom: rem(243);
     right: rem(57);
+    pointer-events: none;
+
     @include mq("sp") {
       bottom: spSize(465);
       right: spSize(8);
@@ -648,11 +738,25 @@ reset CSS
   .product-block-03__text {
     text-align: center;
   }
-  .product-block-03__price {
+  .product-block-03__price-wrapper {
     margin-top: rem(40);
-    text-align: center;
     @include mq("sp") {
       margin-top: spSize(60);
+    }
+  }
+  .product-block-03__price {
+    display: flex;
+    gap: rem(10);
+    justify-content: center;
+    align-items: center;
+  }
+  .product-block-03__price-link {
+    transition: opacity 0.3s;
+    &:hover {
+      opacity: 0.6;
+      @include mq("sp") {
+        opacity: 1;
+      }
     }
   }
 

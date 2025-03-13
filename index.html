@@ -33,14 +33,20 @@
       fv
       ===============-->
       <div class="fv">
-        <picture class="fv__picture">
-          <source media="(min-width: 768px)" srcset="./img/firstview_pc.jpg" />
-          <img
-            src="./img/firstview_sp.jpg"
-            alt="Flower Art Collection 春のフラワーモチーフコレクション"
-          />
-        </picture>
-        <!-- /.fv__picture -->
+        <a href="#" class="fv__link">
+          <picture class="fv__picture js-fadeIn">
+            <source
+              media="(min-width: 768px)"
+              srcset="./img/firstview_pc.jpg"
+            />
+            <img
+              src="./img/firstview_sp.jpg"
+              alt="Flower Art Collection 春のフラワーモチーフコレクション"
+            />
+          </picture>
+          <!-- /.fv__picture -->
+        </a>
+        <!-- /.fv__link -->
       </div>
       <!-- /.fv -->
       <!-- =============
@@ -61,11 +67,14 @@
       <!-- product-block-01 -->
       <div class="product-block-01">
         <div class="product-block-01__image-wrapper">
-          <div class="product-block-01__image">
-            <img
-              src="./img/product01.png"
-              alt="Dress 23,100yen Shoes 38,500yen"
-            />
+          <div class="product-block-01__image js-fadeIn">
+            <a href="" class="product-block-01__image-link">
+              <img
+                src="./img/product01.png"
+                alt="Dress 23,100yen Shoes 38,500yen"
+              />
+            </a>
+            <!-- /.product-block-01__image-link -->
           </div>
           <!-- /.product-block-01__image -->
           <div class="product-block-01__deco-frame">
@@ -78,7 +87,7 @@
             </picture>
           </div>
           <!-- /.product-block-01__deco-frame -->
-          <div class="product-block-01__deco-flower-left">
+          <div class="product-block-01__deco-flower-left js-fadeIn">
             <picture class="">
               <source
                 media="(min-width: 768px)"
@@ -88,7 +97,7 @@
             </picture>
           </div>
           <!-- /.product-block-01__deco-flower-left -->
-          <div class="product-block-01__deco-flower-right">
+          <div class="product-block-01__deco-flower-right js-fadeIn">
             <picture>
               <source
                 media="(min-width: 768px)"
@@ -107,9 +116,10 @@
             />気持ちも華やぐ主役級の逸品。
           </p>
           <!-- /.product-block-01__text -->
-          <p class="product-block-01__price price">
-            Dress 23,100yen Shoes 38,500yen
-          </p>
+          <div class="product-block-01__price price">
+            <a href="#" class="product-block-01__price-link">Dress 23,100yen</a>
+            <a href="#" class="product-block-01__price-link">Shoes 38,500yen</a>
+          </div>
           <!-- /.product-block-01__price -->
         </div>
         <!-- /.product-block-01__body -->
@@ -122,11 +132,14 @@
         <div class="product-block-02__inner">
           <div class="product-block-02__wrapper">
             <div class="product-block-02__image-area">
-              <div class="product-block-02__image">
-                <img
-                  src="./img/product02.png"
-                  alt="Camisole 25,300yen Skirt 16,500yen Scarf 6,600yen   Shoes 28,600yen"
-                />
+              <div class="product-block-02__image js-fadeIn">
+                <a href="#" class="product-block-02__image-link">
+                  <img
+                    src="./img/product02.png"
+                    alt="Camisole 25,300yen Skirt 16,500yen Scarf 6,600yen   Shoes 28,600yen"
+                  />
+                </a>
+                <!-- /.product-block-02__image-link -->
               </div>
               <!-- /.product-block-02__image -->
               <div class="product-block-02__top-text">
@@ -140,7 +153,7 @@
                 />
               </div>
               <!-- /.product-block-02__bottom-text -->
-              <div class="product-block-02__left-flower">
+              <div class="product-block-02__left-flower js-fadeIn">
                 <picture class="">
                   <source
                     media="(min-width: 768px)"
@@ -150,7 +163,7 @@
                 </picture>
               </div>
               <!-- /.product-block-02__left-flower -->
-              <div class="product-block-02__top-flower hidden-pc">
+              <div class="product-block-02__top-flower hidden-pc js-fadeIn">
                 <img src="./img/product02-right-flower.png" alt="" />
               </div>
             </div>
@@ -162,16 +175,32 @@
                 />気分に合わせてシルエットを楽しめます。<br />ウエストゴム仕様でストレスフリーなのも嬉しいポイント。
               </p>
               <!-- /.product-block-02__text -->
-              <p class="product-block-02__price price">
-                Camisole 25,300yen Skirt 16,500yen<br />
-                Scarf 6,600yen Shoes 28,600yen
-              </p>
+              <div class="product-block-02__price__wrapper">
+                <div class="product-block-02__price price">
+                  <a href="#" class="product-block-02__price-link"
+                    >Camisole 25,300yen
+                  </a>
+                  <a href="#" class="product-block-02__price-link"
+                    >Skirt 16,500yen
+                  </a>
+                </div>
+                <!-- /.product-block-02__price -->
+                <div class="product-block-02__price price">
+                  <a href="#" class="product-block-02__price-link"
+                    >Scarf 6,600yen
+                  </a>
+                  <a href="#" class="product-block-02__price-link"
+                    >Shoes 28,600yen
+                  </a>
+                </div>
+              </div>
+
               <!-- /.product-block-02__price -->
-              <div class="product-block-02__center-flower">
+              <div class="product-block-02__center-flower js-fadeIn">
                 <img src="./img/product02-center-flower.png" alt="" />
               </div>
               <!-- /.product-block-02__center-flower -->
-              <div class="product-block-02__right-flower hidden-sp">
+              <div class="product-block-02__right-flower hidden-sp js-fadeIn">
                 <img src="./img/product02-right-flower.png" alt="" />
               </div>
               <!-- /.product-block-02__right-flower -->
@@ -204,21 +233,27 @@
                   />
                 </div>
                 <!-- /.product-block-03__top-text -->
-                <div class="product-block-03__image1">
-                  <img
-                    src="./img/product03-1.png"
-                    alt="Blouse 19,800yen Pants 18,700yen   Pants 6,600yen Shoes 31,900yen"
-                  />
+                <div class="product-block-03__image1 js-fadeIn">
+                  <a href="#" class="product-block-03__image-link">
+                    <img
+                      src="./img/product03-1.png"
+                      alt="Blouse 19,800yen Pants 18,700yen   Pants 6,600yen Shoes 31,900yen"
+                    />
+                  </a>
+                  <!-- /.product-block-03__image-link -->
                 </div>
                 <!-- /.product-block-03__image1 -->
               </div>
               <!-- /.product-block-03__image-area1 -->
               <div class="product-block-03__image-area2">
-                <div class="product-block-03__image2">
-                  <img
-                    src="./img/product03-2.png"
-                    alt="Blouse 19,800yen Pants 18,700yen   Pants 6,600yen Shoes 31,900yen"
-                  />
+                <div class="product-block-03__image2 js-fadeIn">
+                  <a href="#" class="product-block-03__image-link">
+                    <img
+                      src="./img/product03-2.png"
+                      alt="Blouse 19,800yen Pants 18,700yen   Pants 6,600yen Shoes 31,900yen"
+                    />
+                  </a>
+                  <!-- /.product-block-03__image-link -->
                 </div>
                 <!-- /.product-block-03__image2 -->
                 <div class="product-block-03__bottom-text">
@@ -236,19 +271,19 @@
                 <!-- /.product-block-03__bottom-text -->
               </div>
               <!-- /.product-block-03__image-area2 -->
-              <div class="product-block-03__flower1">
+              <div class="product-block-03__flower1 js-fadeIn">
                 <img src="./img/product03-flower1.png" alt="" />
               </div>
               <!-- /.product-block-03__flower1 -->
-              <div class="product-block-03__flower2">
+              <div class="product-block-03__flower2 js-fadeIn">
                 <img src="./img/product03-flower2.png" alt="" />
               </div>
               <!-- /.product-block-03__flower2 -->
-              <div class="product-block-03__flower3">
+              <div class="product-block-03__flower3 js-fadeIn">
                 <img src="./img/product03-flower3.png" alt="" />
               </div>
               <!-- /.product-block-03__flower3 -->
-              <div class="product-block-03__flower4">
+              <div class="product-block-03__flower4 js-fadeIn">
                 <img src="./img/product03-flower4.png" alt="" />
               </div>
               <!-- /.product-block-03__flower4 -->
@@ -265,12 +300,29 @@
                 />おすすめです。
               </p>
               <!-- /.product-block-03__text -->
-              <p class="product-block-03__price price">
-                Blouse 19,800yen Pants 18,700yen <br class="hidden-pc" />Pants
-                6,600yen<br class="hidden-sp" />
-                Shoes 31,900yen
-              </p>
-              <!-- /.product-block-03__price -->
+              <div class="product-block-03__price-wrapper">
+                <div class="product-block-03__price price">
+                  <a href="#" class="product-block-03__price-link">
+                    Blouse 19,800yen
+                  </a>
+                  <a href="#" class="product-block-03__price-link">
+                    Pants 18,700yen
+                  </a>
+                  <a href="#" class="product-block-03__price-link hidden-sp">
+                    Pants 6,600yen
+                  </a>
+                </div>
+                <!-- /.product-block-03__price -->
+                <div class="product-block-03__price price">
+                  <a href="#" class="product-block-03__price-link hidden-pc">
+                    Pants 6,600yen
+                  </a>
+                  <a href="#" class="product-block-03__price-link"
+                    >Shoes 31,900yen
+                  </a>
+                </div>
+                <!-- /.product-block-03__price -->
+              </div>
             </div>
             <!-- /.product-block-03__body -->
           </div>
@@ -284,7 +336,7 @@
       ===============-->
       <div class="bottom-wrapper">
         <div class="bottom-wrapper__inner">
-          <p class="bottom-wrapper__staff text">
+          <p class="bottom-wrapper__staff text text--en">
             STAFF<br />Photographer_Tomoharu Kotsuji<br />
             Stylist_Tomoko Kojima<br />Hair&Make-up_Yusuke Morioka(eight
             peace)<br />Model_Charlotte(Tokyo Rebels)
@@ -299,5 +351,7 @@
       </div>
       <!-- /.bottom-wrapper -->
     </article>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>

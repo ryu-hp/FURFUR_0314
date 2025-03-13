@@ -132,6 +132,12 @@ reset CSS
   font-size: 1.2rem;
   letter-spacing: 0.05em;
 }
+@media not screen and (min-width: 768px) {
+  #FU250319floweritems .text.text--en {
+    line-height: 2.2;
+    font-size: calc(22 * 0.1333333333vw);
+  }
+}
 #FU250319floweritems .price {
   font-family: "pragmatica", sans-serif;
   font-weight: 400;
@@ -142,7 +148,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .price {
-    font-size: 2.2rem;
+    font-size: calc(22 * 0.1333333333vw);
     line-height: 2.2;
   }
 }
@@ -188,12 +194,17 @@ reset CSS
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .description {
     padding-top: calc(140 * 0.1333333333vw);
-    padding-bottom: calc(140 * 0.1333333333vw);
+    padding-bottom: calc(128 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .description__text {
   margin-top: -0.63rem;
   text-align: center;
+}
+@media not screen and (min-width: 768px) {
+  #FU250319floweritems .description__text {
+    margin-top: calc(-14 * 0.1333333333vw);
+  }
 }
 #FU250319floweritems .product-block-01 {
   padding-top: 9.9rem;
@@ -203,7 +214,7 @@ reset CSS
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-01 {
     padding-top: calc(140 * 0.1333333333vw);
-    padding-bottom: calc(140 * 0.1333333333vw);
+    padding-bottom: calc(130 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-01__image-wrapper {
@@ -280,6 +291,7 @@ reset CSS
     left: 0;
     -webkit-transform: translateX(0);
             transform: translateX(0);
+    bottom: calc(-4 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-01__deco-flower-left img {
@@ -313,7 +325,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-01__deco-flower-right img {
-    max-width: calc(207 * 0.1333333333vw);
+    max-width: calc(220 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-01__body {
@@ -321,7 +333,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-01__body {
-    margin-top: calc(80 * 0.1333333333vw);
+    margin-top: calc(65 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-01__text {
@@ -341,7 +353,8 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-01__price {
-    margin-top: calc(60 * 0.1333333333vw);
+    margin-top: calc(40 * 0.1333333333vw);
+    gap: 1.8rem;
   }
 }
 #FU250319floweritems .product-block-01__price-link {
@@ -398,7 +411,7 @@ reset CSS
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: calc(80 * 0.1333333333vw);
+    gap: calc(65 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-02__image-area {
@@ -445,13 +458,15 @@ reset CSS
   }
 }
 #FU250319floweritems .product-block-02__top-text {
+  pointer-events: none;
   position: absolute;
   top: -0.1rem;
   left: 5.5rem;
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-02__top-text {
-    left: calc(20 * 0.1333333333vw);
+    left: calc(28 * 0.1333333333vw);
+    top: calc(9 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-02__top-text img {
@@ -460,7 +475,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-02__top-text img {
-    max-width: calc(332 * 0.1333333333vw);
+    max-width: calc(322 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-02__bottom-text {
@@ -472,7 +487,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-02__bottom-text {
-    right: calc(20 * 0.1333333333vw);
+    right: calc(24 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-02__bottom-text img {
@@ -481,7 +496,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-02__bottom-text img {
-    max-width: calc(560 * 0.1333333333vw);
+    max-width: calc(506 * 0.1333333333vw);
     width: 100%;
   }
 }
@@ -494,6 +509,7 @@ reset CSS
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-02__left-flower {
     bottom: calc(-20 * 0.1333333333vw);
+    left: calc(10 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-02__left-flower img {
@@ -502,7 +518,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-02__left-flower img {
-    max-width: calc(197 * 0.1333333333vw);
+    max-width: calc(200 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-02__top-flower {
@@ -511,8 +527,8 @@ reset CSS
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-02__top-flower {
     position: absolute;
-    top: calc(-60 * 0.1333333333vw);
-    right: 0;
+    top: calc(-59 * 0.1333333333vw);
+    right: calc(16 * 0.1333333333vw);
   }
   #FU250319floweritems .product-block-02__top-flower img {
     max-width: calc(177 * 0.1333333333vw);
@@ -535,7 +551,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-02__price__wrapper {
-    margin-top: calc(60 * 0.1333333333vw);
+    margin-top: calc(36 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-02__price {
@@ -549,6 +565,11 @@ reset CSS
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+@media not screen and (min-width: 768px) {
+  #FU250319floweritems .product-block-02__price {
+    gap: calc(18 * 0.1333333333vw);
+  }
 }
 #FU250319floweritems .product-block-02__price-link {
   -webkit-transition: opacity 0.3s;
@@ -572,7 +593,7 @@ reset CSS
   #FU250319floweritems .product-block-02__center-flower {
     right: 0;
     left: auto;
-    bottom: calc(-90 * 0.1333333333vw);
+    bottom: calc(-91 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-02__center-flower img {
@@ -581,7 +602,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-02__center-flower img {
-    max-width: calc(160 * 0.1333333333vw);
+    max-width: calc(187 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-02__right-flower {
@@ -601,8 +622,8 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03 {
-    padding-top: calc(140 * 0.1333333333vw);
-    padding-bottom: calc(140 * 0.1333333333vw);
+    padding-top: calc(122 * 0.1333333333vw);
+    padding-bottom: calc(130 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-03__inner {
@@ -642,9 +663,9 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__top-text {
-    margin-top: 0;
+    margin-top: calc(18 * 0.1333333333vw);
     margin-left: 0;
-    margin-right: calc(18 * 0.1333333333vw);
+    margin-right: calc(23 * 0.1333333333vw);
     text-align: right;
   }
 }
@@ -654,7 +675,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__top-text img {
-    max-width: calc(440 * 0.1333333333vw);
+    max-width: calc(450 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-03__image1 {
@@ -664,7 +685,7 @@ reset CSS
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__image1 {
     padding-left: 0;
-    margin-top: calc(30 * 0.1333333333vw);
+    margin-top: calc(34 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-03__image1 img {
@@ -681,7 +702,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__image2 {
-    padding-right: calc(18 * 0.1333333333vw);
+    padding-right: calc(20 * 0.1333333333vw);
     text-align: right;
   }
 }
@@ -715,7 +736,7 @@ reset CSS
   #FU250319floweritems .product-block-03__bottom-text {
     text-align: left;
     margin-left: calc(40 * 0.1333333333vw);
-    margin-top: calc(40 * 0.1333333333vw);
+    margin-top: calc(50 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-03__bottom-text img {
@@ -724,7 +745,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__bottom-text img {
-    max-width: calc(560 * 0.1333333333vw);
+    max-width: calc(530 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-03__flower1 {
@@ -746,7 +767,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__flower1 img {
-    max-width: calc(195 * 0.1333333333vw);
+    max-width: calc(206 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-03__flower2 {
@@ -757,7 +778,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__flower2 {
-    top: calc(-60 * 0.1333333333vw);
+    top: calc(-64 * 0.1333333333vw);
     left: calc(180 * 0.1333333333vw);
     right: auto;
   }
@@ -768,7 +789,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__flower2 img {
-    max-width: calc(186 * 0.1333333333vw);
+    max-width: calc(194 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-03__flower3 {
@@ -779,7 +800,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__flower3 {
-    bottom: calc(-92 * 0.1333333333vw);
+    bottom: calc(-82 * 0.1333333333vw);
     left: calc(25 * 0.1333333333vw);
     right: auto;
   }
@@ -801,8 +822,8 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__flower4 {
-    bottom: calc(465 * 0.1333333333vw);
-    right: calc(8 * 0.1333333333vw);
+    bottom: calc(456 * 0.1333333333vw);
+    right: calc(-2 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-03__flower4 img {
@@ -811,7 +832,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__flower4 img {
-    max-width: calc(180 * 0.1333333333vw);
+    max-width: calc(210 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-03__body {
@@ -819,7 +840,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__body {
-    margin-top: calc(80 * 0.1333333333vw);
+    margin-top: calc(65 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-03__text {
@@ -830,7 +851,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__price-wrapper {
-    margin-top: calc(60 * 0.1333333333vw);
+    margin-top: calc(35 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-03__price {
@@ -844,6 +865,11 @@ reset CSS
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+@media not screen and (min-width: 768px) {
+  #FU250319floweritems .product-block-03__price {
+    gap: 1.8rem;
+  }
 }
 #FU250319floweritems .product-block-03__price-link {
   -webkit-transition: opacity 0.3s;
@@ -863,7 +889,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .bottom-wrapper {
-    padding-top: calc(140 * 0.1333333333vw);
+    padding-top: calc(127 * 0.1333333333vw);
     padding-bottom: calc(180 * 0.1333333333vw);
   }
 }
@@ -890,8 +916,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .bottom-wrapper__button {
-    margin-top: calc(70 * 0.1333333333vw);
-    padding: calc(36 * 0.1333333333vw);
+    margin-top: calc(61 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .bottom-wrapper__button a {
@@ -904,4 +929,10 @@ reset CSS
   font-size: 2.2rem;
   line-height: 1;
   letter-spacing: 0.05em;
+}
+@media not screen and (min-width: 768px) {
+  #FU250319floweritems .bottom-wrapper__button a {
+    font-size: calc(40 * 0.1333333333vw);
+    padding: calc(36 * 0.1333333333vw);
+  }
 }

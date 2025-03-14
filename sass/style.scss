@@ -523,7 +523,7 @@ reset CSS
     justify-content: center;
     align-items: center;
     @include mq("sp") {
-      gap: spSize(18);
+      gap: spSize(20);
     }
   }
   .product-block-02__price-link {
@@ -782,9 +782,9 @@ reset CSS
     gap: rem(10);
     justify-content: center;
     align-items: center;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.05em;
     @include mq("sp") {
-      gap: rem(21);
+      gap: spSize(21);
       padding-left: spSize(2);
     }
   }
@@ -825,7 +825,7 @@ reset CSS
   .bottom-wrapper__staff {
     text-align: center;
     @include mq("sp") {
-      padding-left: 0.3rem;
+      padding-left: 0.1rem;
     }
   }
   .bottom-wrapper__staff {
@@ -857,7 +857,7 @@ reset CSS
 
       @include mq("sp") {
         font-size: spSize(40);
-        padding: spSize(36);
+        padding: spSize(38) spSize(36) spSize(34);
       }
     }
   }

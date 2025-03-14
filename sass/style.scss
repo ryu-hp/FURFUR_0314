@@ -24,7 +24,7 @@ $breakpoints: (
 // }
 
 @function spSize($size) {
-  @return calc(#{$size} * (100vw / 750));
+  @return unquote("calc(#{$size} * (100vw / 750))");
 }
 
 // テスト環境で確認
@@ -140,7 +140,7 @@ reset CSS
       font-family: "pragmatica", sans-serif;
       font-weight: 400;
       font-style: normal;
-      line-height: calc(26.4s / 12);
+      line-height: calc(26.4 / 12);
       font-size: rem(12);
       letter-spacing: calc(50 / 1000 * 1em);
       @include mq("sp") {
@@ -344,7 +344,7 @@ reset CSS
     align-content: center;
     @include mq("sp") {
       margin-top: spSize(40);
-      gap: rem(18);
+      gap: spSize(18);
     }
   }
   .product-block-01__price-link {
@@ -501,6 +501,9 @@ reset CSS
     flex-grow: 1;
     width: 100%;
     margin-bottom: rem(8);
+    @include mq("sp") {
+      margin-bottom: spSize(8);
+    }
   }
   .product-block-02__text {
     text-align: center;
@@ -669,6 +672,7 @@ reset CSS
       text-align: left;
       margin-left: spSize(43);
       margin-top: spSize(50);
+      margin-right: auto;
     }
     img {
       max-width: rem(330);
@@ -766,7 +770,6 @@ reset CSS
     @include mq("sp") {
       line-height: 2.18;
     }
-
   }
   .product-block-03__price-wrapper {
     margin-top: rem(25);
@@ -815,6 +818,8 @@ reset CSS
     margin-right: auto;
     @include mq("sp") {
       max-width: calc(spSize(600) + spSize(20) * 2);
+      padding-left: spSize(20);
+      padding-right: spSize(20);
     }
   }
   .bottom-wrapper__staff {

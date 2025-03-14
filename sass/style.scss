@@ -18,19 +18,15 @@ $breakpoints: (
   @return math.div($pixels, 10) * 1rem;
 }
 
-// ラフマインド案件用のスマ表示用フォントサイズ
-// @function vw($sp-pixels) {
-//   @return math.div($sp-pixels, 750) * 100vw;
-// }
-
+// スマ表示用フォントサイズ
 @function spSize($size) {
-  @return calc(#{$size} * (100vw / 750));
+  @return unquote("calc(#{$size} * (100vw / 750))");
 }
 
 // テスト環境で確認
-body {
-  margin: 0;
-}
+// body {
+//   margin: 0;
+// }
 
 /* ===========================================
 reset CSS
@@ -186,15 +182,7 @@ reset CSS
     opacity: 1;
     visibility: visible;
   }
-  // .js-fadeInMv {
-  //   opacity: 0;
-  //   visibility: hidden;
-  //   transition: opacity 1.5s, visibility 1.5s;
-  // }
-  // .js-fadeInMv.visible {
-  //   opacity: 1;
-  //   visibility: visible;
-  // }
+
   /* ===========================================
   First View
   =========================================== */
@@ -351,7 +339,7 @@ reset CSS
     align-content: center;
     @include mq("sp") {
       margin-top: spSize(40);
-      gap: rem(18);
+      gap: spSize(18);
     }
   }
   .product-block-01__price-link {
@@ -457,6 +445,7 @@ reset CSS
     text-align: right;
     @include mq("sp") {
       right: spSize(24);
+      bottom: spSize(6);
     }
     img {
       max-width: rem(360);
@@ -504,6 +493,9 @@ reset CSS
     flex-grow: 1;
     width: 100%;
     margin-bottom: rem(8);
+    @include mq("sp") {
+      margin-bottom: spSize(8);
+    }
   }
   .product-block-02__text {
     text-align: center;
@@ -592,7 +584,7 @@ reset CSS
   }
   .product-block-03__images {
     display: flex;
-    gap: 60px;
+    gap: rem(60);
     @include mq("sp") {
       flex-direction: column-reverse;
       gap: 0;
@@ -669,6 +661,7 @@ reset CSS
       text-align: left;
       margin-left: spSize(40);
       margin-top: spSize(50);
+      margin-right: auto;
     }
     img {
       max-width: rem(330);
@@ -774,7 +767,7 @@ reset CSS
     justify-content: center;
     align-items: center;
     @include mq("sp") {
-      gap: rem(18);
+      gap: spSize(18);
     }
   }
   .product-block-03__price-link {
@@ -806,6 +799,8 @@ reset CSS
     margin-right: auto;
     @include mq("sp") {
       max-width: calc(spSize(600) + spSize(20) * 2);
+      padding-left: spSize(20);
+      padding-right: spSize(20);
     }
   }
   .bottom-wrapper__staff {

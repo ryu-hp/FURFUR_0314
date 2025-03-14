@@ -373,7 +373,7 @@ reset CSS
     background: #f3f9fb;
     @include mq("sp") {
       padding-top: spSize(140);
-      padding-bottom: spSize(140);
+      padding-bottom: spSize(123);
     }
   }
   .product-block-02__inner {
@@ -569,10 +569,10 @@ reset CSS
   =========================================== */
   .product-block-03 {
     padding-top: rem(98);
-    padding-bottom: rem(96);
+    padding-bottom: rem(94);
     background: #fdf7ee;
     @include mq("sp") {
-      padding-top: spSize(122);
+      padding-top: spSize(139);
       padding-bottom: spSize(130);
     }
   }
@@ -791,7 +791,7 @@ reset CSS
   bottom-wrapper
   =========================================== */
   .bottom-wrapper {
-    padding-top: rem(90);
+    padding-top: rem(93);
     padding-bottom: rem(140);
     @include mq("sp") {
       padding-top: spSize(127);
@@ -819,12 +819,12 @@ reset CSS
     text-align: center;
 
     @include mq("sp") {
-      margin-top: spSize(61);
+      margin-top: spSize(60);
     }
 
     a {
       display: inline-block;
-      padding: rem(20);
+      padding: rem(20) rem(20) rem(18);
       width: 100%;
       font-family: "pragmatica", sans-serif;
       font-weight: 400;

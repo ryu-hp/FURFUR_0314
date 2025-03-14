@@ -377,7 +377,7 @@ reset CSS
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-02 {
     padding-top: calc(140 * 0.1333333333vw);
-    padding-bottom: calc(140 * 0.1333333333vw);
+    padding-bottom: calc(123 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-02__inner {
@@ -617,12 +617,12 @@ reset CSS
 }
 #FU250319floweritems .product-block-03 {
   padding-top: 9.8rem;
-  padding-bottom: 9.6rem;
+  padding-bottom: 9.4rem;
   background: #fdf7ee;
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03 {
-    padding-top: calc(122 * 0.1333333333vw);
+    padding-top: calc(139 * 0.1333333333vw);
     padding-bottom: calc(130 * 0.1333333333vw);
   }
 }
@@ -884,7 +884,7 @@ reset CSS
   }
 }
 #FU250319floweritems .bottom-wrapper {
-  padding-top: 9rem;
+  padding-top: 9.3rem;
   padding-bottom: 14rem;
 }
 @media not screen and (min-width: 768px) {
@@ -916,12 +916,12 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .bottom-wrapper__button {
-    margin-top: calc(61 * 0.1333333333vw);
+    margin-top: calc(60 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .bottom-wrapper__button a {
   display: inline-block;
-  padding: 2rem;
+  padding: 2rem 2rem 1.8rem;
   width: 100%;
   font-family: "pragmatica", sans-serif;
   font-weight: 400;

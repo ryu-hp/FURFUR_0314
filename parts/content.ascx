@@ -20,7 +20,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
 <link rel="stylesheet" href="https://use.typekit.net/hhm4qxi.css">
 
 <%-- ▼ CSS ▼ --%>
-<link rel="stylesheet" href="<%= Constants.PATH_ROOT %>Page/issue/issue_250319/css/style.css" />  
+<link rel="stylesheet" href="<%= Constants.PATH_ROOT %>Page/issue/issue_250319/css/style.css?0314-1050" />  
 
 <%-- ▼ JS ▼ --%>
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>

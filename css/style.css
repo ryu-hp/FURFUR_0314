@@ -121,6 +121,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .text {
+    letter-spacing: 0.02em;
     font-size: calc(24 * 0.1333333333vw);
   }
 }
@@ -150,6 +151,7 @@ reset CSS
   #FU250319floweritems .price {
     font-size: calc(22 * 0.1333333333vw);
     line-height: 2.2;
+    letter-spacing: 0.045em;
   }
 }
 @media screen and (min-width: 768px) {
@@ -411,7 +413,7 @@ reset CSS
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: calc(65 * 0.1333333333vw);
+    gap: calc(67 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-02__image-area {
@@ -465,8 +467,10 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-02__top-text {
-    left: calc(28 * 0.1333333333vw);
-    top: calc(9 * 0.1333333333vw);
+    left: calc(27 * 0.1333333333vw);
+    top: calc(8 * 0.1333333333vw);
+    max-width: calc(301 * 0.1333333333vw);
+    width: 100%;
   }
 }
 #FU250319floweritems .product-block-02__top-text img {
@@ -487,7 +491,9 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-02__bottom-text {
-    right: calc(24 * 0.1333333333vw);
+    right: 0;
+    padding-right: calc(22 * 0.1333333333vw);
+    bottom: calc(5 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-02__bottom-text img {
@@ -496,7 +502,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-02__bottom-text img {
-    max-width: calc(506 * 0.1333333333vw);
+    max-width: calc(508 * 0.1333333333vw);
     width: 100%;
   }
 }
@@ -546,12 +552,17 @@ reset CSS
 #FU250319floweritems .product-block-02__text {
   text-align: center;
 }
+@media not screen and (min-width: 768px) {
+  #FU250319floweritems .product-block-02__text {
+    line-height: 2.19;
+  }
+}
 #FU250319floweritems .product-block-02__price__wrapper {
   margin-top: 2.7rem;
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-02__price__wrapper {
-    margin-top: calc(36 * 0.1333333333vw);
+    margin-top: calc(38 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-02__price {
@@ -591,9 +602,9 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-02__center-flower {
-    right: 0;
+    right: calc(9 * 0.1333333333vw);
     left: auto;
-    bottom: calc(-91 * 0.1333333333vw);
+    bottom: calc(-75 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-02__center-flower img {
@@ -602,7 +613,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-02__center-flower img {
-    max-width: calc(187 * 0.1333333333vw);
+    max-width: calc(160 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-02__right-flower {
@@ -623,7 +634,7 @@ reset CSS
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03 {
     padding-top: calc(139 * 0.1333333333vw);
-    padding-bottom: calc(130 * 0.1333333333vw);
+    padding-bottom: calc(132 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-03__inner {
@@ -665,7 +676,7 @@ reset CSS
   #FU250319floweritems .product-block-03__top-text {
     margin-top: calc(18 * 0.1333333333vw);
     margin-left: 0;
-    margin-right: calc(23 * 0.1333333333vw);
+    margin-right: calc(21 * 0.1333333333vw);
     text-align: right;
   }
 }
@@ -685,7 +696,7 @@ reset CSS
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__image1 {
     padding-left: 0;
-    margin-top: calc(34 * 0.1333333333vw);
+    margin-top: calc(36 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-03__image1 img {
@@ -694,7 +705,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__image1 img {
-    max-width: calc(630 * 0.1333333333vw);
+    max-width: calc(632 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-03__image2 {
@@ -735,7 +746,7 @@ reset CSS
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__bottom-text {
     text-align: left;
-    margin-left: calc(40 * 0.1333333333vw);
+    margin-left: calc(43 * 0.1333333333vw);
     margin-top: calc(50 * 0.1333333333vw);
   }
 }
@@ -745,7 +756,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__bottom-text img {
-    max-width: calc(530 * 0.1333333333vw);
+    max-width: calc(528 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-03__flower1 {
@@ -822,8 +833,9 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__flower4 {
-    bottom: calc(456 * 0.1333333333vw);
-    right: calc(-2 * 0.1333333333vw);
+    bottom: calc(457 * 0.1333333333vw);
+    right: 0;
+    overflow-x: clip;
   }
 }
 #FU250319floweritems .product-block-03__flower4 img {
@@ -832,7 +844,9 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__flower4 img {
-    max-width: calc(210 * 0.1333333333vw);
+    max-width: calc(212 * 0.1333333333vw);
+    -webkit-transform: translateX(calc(4 * 0.1333333333vw));
+            transform: translateX(calc(4 * 0.1333333333vw));
   }
 }
 #FU250319floweritems .product-block-03__body {
@@ -845,6 +859,11 @@ reset CSS
 }
 #FU250319floweritems .product-block-03__text {
   text-align: center;
+}
+@media not screen and (min-width: 768px) {
+  #FU250319floweritems .product-block-03__text {
+    line-height: 2.18;
+  }
 }
 #FU250319floweritems .product-block-03__price-wrapper {
   margin-top: 2.5rem;
@@ -865,15 +884,18 @@ reset CSS
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  letter-spacing: 0.04em;
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__price {
-    gap: 1.8rem;
+    gap: 2.1rem;
+    padding-left: calc(2 * 0.1333333333vw);
   }
 }
 #FU250319floweritems .product-block-03__price-link {
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s;
+  list-style: 2.15em;
 }
 #FU250319floweritems .product-block-03__price-link:hover {
   opacity: 0.6;
@@ -889,7 +911,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .bottom-wrapper {
-    padding-top: calc(127 * 0.1333333333vw);
+    padding-top: calc(128 * 0.1333333333vw);
     padding-bottom: calc(180 * 0.1333333333vw);
   }
 }
@@ -908,6 +930,15 @@ reset CSS
 #FU250319floweritems .bottom-wrapper__staff {
   text-align: center;
 }
+@media not screen and (min-width: 768px) {
+  #FU250319floweritems .bottom-wrapper__staff {
+    padding-left: 0.3rem;
+  }
+}
+#FU250319floweritems .bottom-wrapper__staff {
+  text-align: center;
+  padding-left: 0.3rem;
+}
 #FU250319floweritems .bottom-wrapper__button {
   margin-top: 3.6rem;
   background: #89b4c0;
@@ -917,6 +948,8 @@ reset CSS
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .bottom-wrapper__button {
     margin-top: calc(60 * 0.1333333333vw);
+    -webkit-transform: translateX(calc(1 * 0.1333333333vw));
+            transform: translateX(calc(1 * 0.1333333333vw));
   }
 }
 #FU250319floweritems .bottom-wrapper__button a {

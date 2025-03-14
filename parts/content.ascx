@@ -20,10 +20,9 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
 <link rel="stylesheet" href="https://use.typekit.net/hhm4qxi.css">
 
 <%-- ▼ CSS ▼ --%>
-<link rel="stylesheet" href="<%= Constants.PATH_ROOT %>Page/issue/issue_250319/css/style.css?0314-1050" />  
+<link rel="stylesheet" href="<%= Constants.PATH_ROOT %>Page/issue/issue_250319/css/style.css?0314-1738" />  
 
 <%-- ▼ JS ▼ --%>
-<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 
 <%-- コンテンツ部分用CSS読み込みここまで --%>
 <%-- ▽▽編集エリア --%>
@@ -32,7 +31,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
   fv
   ===============-->
   <div class="fv">
-    <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=FU250319floweritemsALL" class="fv__link">
+    <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=FU250319floweritemsALL" class="fv__link">
       <picture class="fv__picture js-fadeIn">
         <source
           media="(min-width: 768px)"
@@ -117,7 +116,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
       <!-- /.product-block-01__text -->
       <div class="product-block-01__price price">
         <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=RWFO251078" class="product-block-01__price-link">Dress 23,100yen</a>
-        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=RWFO251078" class="product-block-01__price-link">Shoes 38,500yen</a>
+        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=RWGS251522" class="product-block-01__price-link">Shoes 38,500yen</a>
       </div>
       <!-- /.product-block-01__price -->
     </div>
@@ -135,7 +134,10 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=FU250319floweritems02" class="product-block-02__image-link">
               <img
                 src="<%= Constants.PATH_ROOT %>Page/issue/issue_250319/img/product02.png"
-                alt="Camisole 25,300yen Skirt 16,500yen Scarf 6,600yen   Shoes 28,600yen"
+                alt="Camisole 25,300yen Skirt 16,500yen Scarf 6,600yen   Shoes 28,600yen"  class="hidden-sp"
+              /><img
+                src="<%= Constants.PATH_ROOT %>Page/issue/issue_250319/img/product02-SP.jpg"
+                alt="Camisole 25,300yen Skirt 16,500yen Scarf 6,600yen   Shoes 28,600yen"  class="hidden-pc"
               />
             </a>
             <!-- /.product-block-02__image-link -->
@@ -205,7 +207,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
 
           <!-- /.product-block-02__price -->
           <div class="product-block-02__center-flower js-fadeIn">
-            <img src="<%= Constants.PATH_ROOT %>Page/issue/issue_250319/img/product02-center-flower.png" alt="" />
+            <img src="<%= Constants.PATH_ROOT %>Page/issue/issue_250319/img/product02-center-flower.png" class="hidden-sp" /><img src="<%= Constants.PATH_ROOT %>Page/issue/issue_250319/img/product02-center-flower-SP.png" class="hidden-pc" />
           </div>
           <!-- /.product-block-02__center-flower -->
           <div class="product-block-02__right-flower hidden-sp js-fadeIn">
@@ -242,10 +244,13 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             </div>
             <!-- /.product-block-03__top-text -->
             <div class="product-block-03__image1 js-fadeIn">
-              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=RWGS251517" class="product-block-03__image-link">
+              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=FU250319floweritems03" class="product-block-03__image-link">
                 <img
                   src="<%= Constants.PATH_ROOT %>Page/issue/issue_250319/img/product03-1.png"
-                  alt="Blouse 19,800yen Pants 18,700yen   Pants 6,600yen Shoes 31,900yen"
+                  alt="Blouse 19,800yen Pants 18,700yen   Pants 6,600yen Shoes 31,900yen" class="hidden-sp"
+                /><img
+                  src="<%= Constants.PATH_ROOT %>Page/issue/issue_250319/img/product03-1-SP.jpg"
+                  alt="Blouse 19,800yen Pants 18,700yen   Pants 6,600yen Shoes 31,900yen" class="hidden-pc"
                 />
               </a>
               <!-- /.product-block-03__image-link -->
@@ -255,10 +260,13 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
           <!-- /.product-block-03__image-area1 -->
           <div class="product-block-03__image-area2">
             <div class="product-block-03__image2 js-fadeIn">
-              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=RWGS251517" class="product-block-03__image-link">
+              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=FU250319floweritems03" class="product-block-03__image-link">
                 <img
                   src="<%= Constants.PATH_ROOT %>Page/issue/issue_250319/img/product03-2.png"
-                  alt="Blouse 19,800yen Pants 18,700yen   Pants 6,600yen Shoes 31,900yen"
+                  alt="Blouse 19,800yen Pants 18,700yen   Pants 6,600yen Shoes 31,900yen" class="hidden-sp" 
+                /><img
+                  src="<%= Constants.PATH_ROOT %>Page/issue/issue_250319/img/product03-2-SP.jpg"
+                  alt="Blouse 19,800yen Pants 18,700yen   Pants 6,600yen Shoes 31,900yen" class="hidden-pc" 
                 />
               </a>
               <!-- /.product-block-03__image-link -->
@@ -280,11 +288,11 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
           </div>
           <!-- /.product-block-03__image-area2 -->
           <div class="product-block-03__flower1 js-fadeIn">
-            <img src="<%= Constants.PATH_ROOT %>Page/issue/issue_250319/img/product03-flower1.png" alt="" />
+            <img src="<%= Constants.PATH_ROOT %>Page/issue/issue_250319/img/product03-flower1.png" class="hidden-sp" /><img src="<%= Constants.PATH_ROOT %>Page/issue/issue_250319/img/product03-flower1-SP.png" class="hidden-pc" />
           </div>
           <!-- /.product-block-03__flower1 -->
           <div class="product-block-03__flower2 js-fadeIn">
-            <img src="<%= Constants.PATH_ROOT %>Page/issue/issue_250319/img/product03-flower2.png" alt="" />
+            <img src="<%= Constants.PATH_ROOT %>Page/issue/issue_250319/img/product03-flower2.png" class="hidden-sp" /><img src="<%= Constants.PATH_ROOT %>Page/issue/issue_250319/img/product03-flower2-SP.png" class="hidden-pc" />
           </div>
           <!-- /.product-block-03__flower2 -->
           <div class="product-block-03__flower3 js-fadeIn">
@@ -292,7 +300,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
           </div>
           <!-- /.product-block-03__flower3 -->
           <div class="product-block-03__flower4 js-fadeIn">
-            <img src="<%= Constants.PATH_ROOT %>Page/issue/issue_250319/img/product03-flower4.png" alt="" />
+            <img src="<%= Constants.PATH_ROOT %>Page/issue/issue_250319/img/product03-flower4.png" class="hidden-sp" /><img src="<%= Constants.PATH_ROOT %>Page/issue/issue_250319/img/product03-flower4-SP.png" class="hidden-pc" />
           </div>
           <!-- /.product-block-03__flower4 -->
         </div>
@@ -310,7 +318,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
           <!-- /.product-block-03__text -->
           <div class="product-block-03__price-wrapper">
             <div class="product-block-03__price price">
-              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=RWFT251074" class="product-block-03__price-link">
+              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=RWFT251074" class="product-block-03__price-link">
                 Blouse 19,800yen
               </a>
               <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=RWFP251063" class="product-block-03__price-link">
@@ -322,10 +330,10 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             </div>
             <!-- /.product-block-03__price -->
             <div class="product-block-03__price price">
-              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=RWCP251131" class="product-block-03__price-link hidden-pc">
+              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=RWCP251131" class="product-block-03__price-link hidden-pc">
                 Pants 6,600yen
               </a>
-              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=RWGS251510" class="product-block-03__price-link"
+              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=RWGS251510" class="product-block-03__price-link"
                 >Shoes 31,900yen
               </a>
             </div>
@@ -351,7 +359,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
       </p>
       <!-- /.bottom-wrapper__staff -->
       <div class="bottom-wrapper__button">
-        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=FU250319floweritemsALL">CHECK ALL ITEMS</a>
+        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=FU250319floweritemsALL">CHECK ALL ITEMS</a>
       </div>
       <!-- /.bottom-wrapper__button -->
     </div>

@@ -132,6 +132,7 @@ reset CSS
     line-height: calc(28.9 / 13);
     letter-spacing: calc(25 / 1000 * 1em);
     @include mq("sp") {
+      letter-spacing: 0.02em;
       font-size: spSize(24);
     }
 
@@ -159,6 +160,7 @@ reset CSS
     @include mq("sp") {
       font-size: spSize(22);
       line-height: calc(48.4 / 22);
+      letter-spacing: 0.045em;
     }
   }
 
@@ -186,15 +188,6 @@ reset CSS
     opacity: 1;
     visibility: visible;
   }
-  // .js-fadeInMv {
-  //   opacity: 0;
-  //   visibility: hidden;
-  //   transition: opacity 1.5s, visibility 1.5s;
-  // }
-  // .js-fadeInMv.visible {
-  //   opacity: 1;
-  //   visibility: visible;
-  // }
   /* ===========================================
   First View
   =========================================== */
@@ -394,7 +387,7 @@ reset CSS
     gap: rem(45);
     @include mq("sp") {
       flex-direction: column;
-      gap: spSize(65);
+      gap: spSize(67);
     }
   }
   .product-block-02__image-area {
@@ -438,8 +431,10 @@ reset CSS
     top: rem(-1);
     left: rem(55);
     @include mq("sp") {
-      left: spSize(28);
-      top: spSize(9);
+      left: spSize(27);
+      top: spSize(8);
+      max-width: spSize(301);
+      width: 100%;
     }
     img {
       max-width: rem(230);
@@ -456,13 +451,15 @@ reset CSS
     width: 100%;
     text-align: right;
     @include mq("sp") {
-      right: spSize(24);
+      right: 0;
+      padding-right: spSize(22);
+      bottom: spSize(5);
     }
     img {
       max-width: rem(360);
       width: 100%;
       @include mq("sp") {
-        max-width: spSize(506);
+        max-width: spSize(508);
         width: 100%;
       }
     }
@@ -507,11 +504,14 @@ reset CSS
   }
   .product-block-02__text {
     text-align: center;
+    @include mq("sp") {
+      line-height: 2.19;
+    }
   }
   .product-block-02__price__wrapper {
     margin-top: rem(27);
     @include mq("sp") {
-      margin-top: spSize(36);
+      margin-top: spSize(38);
     }
   }
   .product-block-02__price {
@@ -540,15 +540,15 @@ reset CSS
     pointer-events: none;
 
     @include mq("sp") {
-      right: 0;
+      right: spSize(9);
       left: auto;
-      bottom: spSize(-91);
+      bottom: spSize(-75);
     }
     img {
       max-width: rem(130);
       width: 100%;
       @include mq("sp") {
-        max-width: spSize(187);
+        max-width: spSize(160);
       }
     }
   }
@@ -573,7 +573,7 @@ reset CSS
     background: #fdf7ee;
     @include mq("sp") {
       padding-top: spSize(139);
-      padding-bottom: spSize(130);
+      padding-bottom: spSize(132);
     }
   }
   .product-block-03__inner {
@@ -606,7 +606,7 @@ reset CSS
     @include mq("sp") {
       margin-top: spSize(18);
       margin-left: 0;
-      margin-right: spSize(23);
+      margin-right: spSize(21);
       text-align: right;
     }
     img {
@@ -623,13 +623,13 @@ reset CSS
 
     @include mq("sp") {
       padding-left: 0;
-      margin-top: spSize(34);
+      margin-top: spSize(36);
     }
     img {
       max-width: rem(420);
       width: 100%;
       @include mq("sp") {
-        max-width: spSize(630);
+        max-width: spSize(632);
       }
     }
   }
@@ -667,14 +667,14 @@ reset CSS
     margin-right: rem(15);
     @include mq("sp") {
       text-align: left;
-      margin-left: spSize(40);
+      margin-left: spSize(43);
       margin-top: spSize(50);
     }
     img {
       max-width: rem(330);
       width: 100%;
       @include mq("sp") {
-        max-width: spSize(530);
+        max-width: spSize(528);
       }
     }
   }
@@ -742,14 +742,16 @@ reset CSS
     pointer-events: none;
 
     @include mq("sp") {
-      bottom: spSize(456);
-      right: spSize(-2);
+      bottom: spSize(457);
+      right: 0;
+      overflow-x: clip;
     }
     img {
       max-width: rem(140);
       width: 100%;
       @include mq("sp") {
-        max-width: spSize(210);
+        max-width: spSize(212);
+        transform: translateX(spSize(4));
       }
     }
   }
@@ -761,6 +763,10 @@ reset CSS
   }
   .product-block-03__text {
     text-align: center;
+    @include mq("sp") {
+      line-height: 2.18;
+    }
+
   }
   .product-block-03__price-wrapper {
     margin-top: rem(25);
@@ -773,12 +779,15 @@ reset CSS
     gap: rem(10);
     justify-content: center;
     align-items: center;
+    letter-spacing: 0.04em;
     @include mq("sp") {
-      gap: rem(18);
+      gap: rem(21);
+      padding-left: spSize(2);
     }
   }
   .product-block-03__price-link {
     transition: opacity 0.3s;
+    list-style: 2.15em;
     &:hover {
       opacity: 0.6;
       @include mq("sp") {
@@ -794,7 +803,7 @@ reset CSS
     padding-top: rem(93);
     padding-bottom: rem(140);
     @include mq("sp") {
-      padding-top: spSize(127);
+      padding-top: spSize(128);
       padding-bottom: spSize(180);
     }
   }
@@ -810,6 +819,13 @@ reset CSS
   }
   .bottom-wrapper__staff {
     text-align: center;
+    @include mq("sp") {
+      padding-left: 0.3rem;
+    }
+  }
+  .bottom-wrapper__staff {
+    text-align: center;
+    padding-left: 0.3rem;
   }
   .bottom-wrapper__button {
     margin-top: rem(36);
@@ -820,6 +836,7 @@ reset CSS
 
     @include mq("sp") {
       margin-top: spSize(60);
+      transform: translateX(spSize(1));
     }
 
     a {

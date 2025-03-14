@@ -584,7 +584,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-02__price {
-    gap: calc(18 * (100vw / 750));
+    gap: calc(20 * (100vw / 750));
   }
 }
 #FU250319floweritems .product-block-02__price-link {
@@ -890,11 +890,11 @@ reset CSS
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.05em;
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__price {
-    gap: 2.1rem;
+    gap: calc(21 * (100vw / 750));
     padding-left: calc(2 * (100vw / 750));
   }
 }
@@ -940,7 +940,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .bottom-wrapper__staff {
-    padding-left: 0.3rem;
+    padding-left: 0.1rem;
   }
 }
 #FU250319floweritems .bottom-wrapper__staff {
@@ -974,6 +974,6 @@ reset CSS
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .bottom-wrapper__button a {
     font-size: calc(40 * (100vw / 750));
-    padding: calc(36 * (100vw / 750));
+    padding: calc(38 * (100vw / 750)) calc(36 * (100vw / 750)) calc(34 * (100vw / 750));
   }
 }

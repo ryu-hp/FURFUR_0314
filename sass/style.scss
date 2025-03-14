@@ -18,15 +18,19 @@ $breakpoints: (
   @return math.div($pixels, 10) * 1rem;
 }
 
-// スマ表示用フォントサイズ
+// ラフマインド案件用のスマ表示用フォントサイズ
+// @function vw($sp-pixels) {
+//   @return math.div($sp-pixels, 750) * 100vw;
+// }
+
 @function spSize($size) {
   @return unquote("calc(#{$size} * (100vw / 750))");
 }
 
 // テスト環境で確認
-// body {
-//   margin: 0;
-// }
+body {
+  margin: 0;
+}
 
 /* ===========================================
 reset CSS
@@ -136,7 +140,7 @@ reset CSS
       font-family: "pragmatica", sans-serif;
       font-weight: 400;
       font-style: normal;
-      line-height: calc(26.4s / 12);
+      line-height: calc(26.4 / 12);
       font-size: rem(12);
       letter-spacing: calc(50 / 1000 * 1em);
       @include mq("sp") {
@@ -591,7 +595,7 @@ reset CSS
   }
   .product-block-03__images {
     display: flex;
-    gap: rem(60);
+    gap: 60px;
     @include mq("sp") {
       flex-direction: column-reverse;
       gap: 0;

@@ -1,4 +1,8 @@
 @charset "UTF-8";
+body {
+  margin: 0;
+}
+
 /* ===========================================
 reset CSS
 =========================================== */
@@ -125,7 +129,7 @@ reset CSS
   font-family: "pragmatica", sans-serif;
   font-weight: 400;
   font-style: normal;
-  line-height: 2.2s;
+  line-height: 2.2;
   font-size: 1.2rem;
   letter-spacing: 0.05em;
 }
@@ -658,7 +662,7 @@ reset CSS
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 6rem;
+  gap: 60px;
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__images {

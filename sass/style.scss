@@ -132,7 +132,7 @@ reset CSS
     line-height: calc(28.9 / 13);
     letter-spacing: calc(25 / 1000 * 1em);
     @include mq("sp") {
-      letter-spacing: 0.02em;
+      letter-spacing: 0.026em;
       font-size: spSize(24);
     }
 
@@ -146,6 +146,7 @@ reset CSS
       @include mq("sp") {
         line-height: calc(48.4 / 22);
         font-size: spSize(22);
+        letter-spacing: 0.049em;
       }
     }
   }
@@ -160,7 +161,7 @@ reset CSS
     @include mq("sp") {
       font-size: spSize(22);
       line-height: calc(48.4 / 22);
-      letter-spacing: 0.045em;
+      letter-spacing: 0.05em;
     }
   }
 
@@ -211,8 +212,8 @@ reset CSS
   Description
   =========================================== */
   .description {
-    padding-top: rem(100);
-    padding-bottom: rem(93.8);
+    padding-top: rem(98);
+    padding-bottom: rem(95.8);
     @include mq("sp") {
       padding-top: spSize(140);
       padding-bottom: spSize(128);
@@ -522,8 +523,9 @@ reset CSS
     gap: rem(10);
     justify-content: center;
     align-items: center;
+    margin-left: rem(1);
     @include mq("sp") {
-      gap: spSize(20);
+      gap: spSize(19);
     }
   }
   .product-block-02__price-link {
@@ -605,7 +607,7 @@ reset CSS
   }
   .product-block-03__top-text {
     margin-top: rem(107);
-    margin-left: rem(29);
+    margin-left: rem(31);
     @include mq("sp") {
       margin-top: spSize(18);
       margin-left: 0;
@@ -613,7 +615,7 @@ reset CSS
       text-align: right;
     }
     img {
-      max-width: rem(380);
+      max-width: rem(377);
       width: 100%;
       @include mq("sp") {
         max-width: spSize(450);
@@ -621,8 +623,8 @@ reset CSS
     }
   }
   .product-block-03__image1 {
-    margin-top: rem(15);
-    padding-left: rem(89);
+    margin-top: rem(16);
+    padding-left: rem(90);
 
     @include mq("sp") {
       padding-left: 0;
@@ -632,7 +634,7 @@ reset CSS
       max-width: rem(420);
       width: 100%;
       @include mq("sp") {
-        max-width: spSize(632);
+        max-width: spSize(630);
       }
     }
   }
@@ -667,7 +669,7 @@ reset CSS
   .product-block-03__bottom-text {
     text-align: right;
     margin-top: rem(26);
-    margin-right: rem(15);
+    margin-right: rem(20);
     @include mq("sp") {
       text-align: left;
       margin-left: spSize(43);
@@ -675,7 +677,7 @@ reset CSS
       margin-right: auto;
     }
     img {
-      max-width: rem(330);
+      max-width: rem(320);
       width: 100%;
       @include mq("sp") {
         max-width: spSize(528);
@@ -685,11 +687,11 @@ reset CSS
   .product-block-03__flower1 {
     position: absolute;
     bottom: rem(180);
-    left: rem(1);
+    left: rem(3);
     pointer-events: none;
 
     @include mq("sp") {
-      top: spSize(788);
+      top: spSize(789);
       left: spSize(20);
       bottom: auto;
     }
@@ -697,42 +699,42 @@ reset CSS
       max-width: rem(137);
       width: 100%;
       @include mq("sp") {
-        max-width: spSize(206);
+        max-width: spSize(200);
       }
     }
   }
   .product-block-03__flower2 {
     position: absolute;
     top: rem(-40);
-    right: rem(10);
+    right: rem(9);
     pointer-events: none;
 
     @include mq("sp") {
-      top: spSize(-64);
-      left: spSize(180);
+      top: spSize(-60);
+      left: spSize(179);
       right: auto;
     }
     img {
-      max-width: rem(122);
+      max-width: rem(121);
       width: 100%;
       @include mq("sp") {
-        max-width: spSize(194);
+        max-width: spSize(191);
       }
     }
   }
   .product-block-03__flower3 {
     position: absolute;
-    bottom: rem(192);
-    right: rem(185);
+    bottom: rem(187);
+    right: rem(184);
     pointer-events: none;
 
     @include mq("sp") {
-      bottom: spSize(-82);
+      bottom: spSize(-85);
       left: spSize(25);
       right: auto;
     }
     img {
-      max-width: rem(82);
+      max-width: rem(84);
       width: 100%;
       @include mq("sp") {
         max-width: spSize(119);
@@ -741,40 +743,40 @@ reset CSS
   }
   .product-block-03__flower4 {
     position: absolute;
-    bottom: rem(235);
-    right: rem(60);
+    bottom: rem(234);
+    right: rem(61);
     pointer-events: none;
 
     @include mq("sp") {
-      bottom: spSize(457);
-      right: 0;
+      bottom: spSize(474);
+      right: spSize(14);
       overflow-x: clip;
     }
     img {
       max-width: rem(140);
       width: 100%;
       @include mq("sp") {
-        max-width: spSize(212);
+        max-width: spSize(180);
         transform: translateX(spSize(4));
       }
     }
   }
   .product-block-03__body {
-    margin-top: rem(55);
+    margin-top: rem(54);
     @include mq("sp") {
-      margin-top: spSize(65);
+      margin-top: spSize(67);
     }
   }
   .product-block-03__text {
     text-align: center;
     @include mq("sp") {
-      line-height: 2.18;
+      line-height: 2.19;
     }
   }
   .product-block-03__price-wrapper {
     margin-top: rem(25);
     @include mq("sp") {
-      margin-top: spSize(35);
+      margin-top: spSize(36);
     }
   }
   .product-block-03__price {
@@ -784,7 +786,7 @@ reset CSS
     align-items: center;
     letter-spacing: 0.05em;
     @include mq("sp") {
-      gap: spSize(21);
+      gap: spSize(17);
       padding-left: spSize(2);
     }
   }
@@ -824,16 +826,17 @@ reset CSS
   }
   .bottom-wrapper__staff {
     text-align: center;
+    margin-top: rem(1);
     @include mq("sp") {
       padding-left: 0.1rem;
+      margin-top: calc(-2 * (100vw / 750));
     }
   }
   .bottom-wrapper__staff {
     text-align: center;
-    padding-left: 0.3rem;
   }
   .bottom-wrapper__button {
-    margin-top: rem(36);
+    margin-top: rem(37);
 
     background: #89b4c0;
     color: #fff;
@@ -841,7 +844,7 @@ reset CSS
 
     @include mq("sp") {
       margin-top: spSize(60);
-      transform: translateX(spSize(1));
+      transform: translateX(spSize(-0.5));
     }
 
     a {
@@ -857,7 +860,8 @@ reset CSS
 
       @include mq("sp") {
         font-size: spSize(40);
-        padding: spSize(38) spSize(36) spSize(34);
+        padding: spSize(37) spSize(36) spSize(35);
+        margin-left: spSize(1);
       }
     }
   }

@@ -577,7 +577,7 @@ reset CSS
     padding-bottom: rem(94);
     background: #fdf7ee;
     @include mq("sp") {
-      padding-top: spSize(139);
+      padding-top: spSize(141);
       padding-bottom: spSize(132);
     }
   }
@@ -609,9 +609,9 @@ reset CSS
     margin-top: rem(107);
     margin-left: rem(31);
     @include mq("sp") {
-      margin-top: spSize(18);
+      margin-top: spSize(17);
       margin-left: 0;
-      margin-right: spSize(21);
+      margin-right: spSize(22);
       text-align: right;
     }
     img {
@@ -672,7 +672,7 @@ reset CSS
     margin-right: rem(20);
     @include mq("sp") {
       text-align: left;
-      margin-left: spSize(43);
+      margin-left: spSize(42);
       margin-top: spSize(50);
       margin-right: auto;
     }
@@ -699,7 +699,9 @@ reset CSS
       max-width: rem(137);
       width: 100%;
       @include mq("sp") {
+
         max-width: spSize(200);
+
       }
     }
   }
@@ -749,28 +751,36 @@ reset CSS
 
     @include mq("sp") {
       bottom: spSize(474);
+
       right: spSize(14);
+
       overflow-x: clip;
     }
     img {
       max-width: rem(140);
       width: 100%;
       @include mq("sp") {
+
         max-width: spSize(180);
         transform: translateX(spSize(4));
+
       }
     }
   }
   .product-block-03__body {
     margin-top: rem(54);
     @include mq("sp") {
+
       margin-top: spSize(67);
+
     }
   }
   .product-block-03__text {
     text-align: center;
     @include mq("sp") {
+
       line-height: 2.19;
+
     }
   }
   .product-block-03__price-wrapper {
@@ -808,7 +818,7 @@ reset CSS
     padding-top: rem(93);
     padding-bottom: rem(140);
     @include mq("sp") {
-      padding-top: spSize(128);
+      padding-top: spSize(126);
       padding-bottom: spSize(180);
     }
   }

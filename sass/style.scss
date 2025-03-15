@@ -575,7 +575,7 @@ reset CSS
     padding-bottom: rem(94);
     background: #fdf7ee;
     @include mq("sp") {
-      padding-top: spSize(139);
+      padding-top: spSize(141);
       padding-bottom: spSize(132);
     }
   }
@@ -607,9 +607,9 @@ reset CSS
     margin-top: rem(107);
     margin-left: rem(29);
     @include mq("sp") {
-      margin-top: spSize(18);
+      margin-top: spSize(17);
       margin-left: 0;
-      margin-right: spSize(21);
+      margin-right: spSize(22);
       text-align: right;
     }
     img {
@@ -632,7 +632,7 @@ reset CSS
       max-width: rem(420);
       width: 100%;
       @include mq("sp") {
-        max-width: spSize(632);
+        max-width: spSize(630);
       }
     }
   }
@@ -670,7 +670,7 @@ reset CSS
     margin-right: rem(15);
     @include mq("sp") {
       text-align: left;
-      margin-left: spSize(43);
+      margin-left: spSize(42);
       margin-top: spSize(50);
       margin-right: auto;
     }
@@ -697,7 +697,7 @@ reset CSS
       max-width: rem(137);
       width: 100%;
       @include mq("sp") {
-        max-width: spSize(206);
+        max-width: spSize(201);
       }
     }
   }
@@ -746,29 +746,28 @@ reset CSS
     pointer-events: none;
 
     @include mq("sp") {
-      bottom: spSize(457);
-      right: 0;
+      bottom: spSize(474);
+      right: spSize(11);
       overflow-x: clip;
     }
     img {
       max-width: rem(140);
       width: 100%;
       @include mq("sp") {
-        max-width: spSize(212);
-        transform: translateX(spSize(4));
+        max-width: spSize(178);
       }
     }
   }
   .product-block-03__body {
     margin-top: rem(55);
     @include mq("sp") {
-      margin-top: spSize(65);
+      margin-top: spSize(66);
     }
   }
   .product-block-03__text {
     text-align: center;
     @include mq("sp") {
-      line-height: 2.18;
+      line-height: 2.2;
     }
   }
   .product-block-03__price-wrapper {
@@ -806,7 +805,7 @@ reset CSS
     padding-top: rem(93);
     padding-bottom: rem(140);
     @include mq("sp") {
-      padding-top: spSize(128);
+      padding-top: spSize(126);
       padding-bottom: spSize(180);
     }
   }

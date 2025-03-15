@@ -638,7 +638,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03 {
-    padding-top: calc(139 * (100vw / 750));
+    padding-top: calc(141 * (100vw / 750));
     padding-bottom: calc(132 * (100vw / 750));
   }
 }
@@ -679,9 +679,9 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__top-text {
-    margin-top: calc(18 * (100vw / 750));
+    margin-top: calc(17 * (100vw / 750));
     margin-left: 0;
-    margin-right: calc(21 * (100vw / 750));
+    margin-right: calc(22 * (100vw / 750));
     text-align: right;
   }
 }
@@ -710,7 +710,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__image1 img {
-    max-width: calc(632 * (100vw / 750));
+    max-width: calc(630 * (100vw / 750));
   }
 }
 #FU250319floweritems .product-block-03__image2 {
@@ -751,7 +751,7 @@ reset CSS
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__bottom-text {
     text-align: left;
-    margin-left: calc(43 * (100vw / 750));
+    margin-left: calc(42 * (100vw / 750));
     margin-top: calc(50 * (100vw / 750));
     margin-right: auto;
   }
@@ -784,7 +784,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__flower1 img {
-    max-width: calc(206 * (100vw / 750));
+    max-width: calc(201 * (100vw / 750));
   }
 }
 #FU250319floweritems .product-block-03__flower2 {
@@ -839,8 +839,8 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__flower4 {
-    bottom: calc(457 * (100vw / 750));
-    right: 0;
+    bottom: calc(474 * (100vw / 750));
+    right: calc(11 * (100vw / 750));
     overflow-x: clip;
   }
 }
@@ -850,9 +850,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__flower4 img {
-    max-width: calc(212 * (100vw / 750));
-    -webkit-transform: translateX(calc(4 * (100vw / 750)));
-            transform: translateX(calc(4 * (100vw / 750)));
+    max-width: calc(178 * (100vw / 750));
   }
 }
 #FU250319floweritems .product-block-03__body {
@@ -860,7 +858,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__body {
-    margin-top: calc(65 * (100vw / 750));
+    margin-top: calc(66 * (100vw / 750));
   }
 }
 #FU250319floweritems .product-block-03__text {
@@ -868,7 +866,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .product-block-03__text {
-    line-height: 2.18;
+    line-height: 2.2;
   }
 }
 #FU250319floweritems .product-block-03__price-wrapper {
@@ -917,7 +915,7 @@ reset CSS
 }
 @media not screen and (min-width: 768px) {
   #FU250319floweritems .bottom-wrapper {
-    padding-top: calc(128 * (100vw / 750));
+    padding-top: calc(126 * (100vw / 750));
     padding-bottom: calc(180 * (100vw / 750));
   }
 }
